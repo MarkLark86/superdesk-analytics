@@ -147,7 +147,19 @@ describe('SDChart.Series', () => {
                 xAxis: 0,
                 type: 'bar',
                 name: 'Test Data',
-                data: [6, 10, 2],
+                data: [{
+                    name: 'b',
+                    y: 6,
+                    className: '',
+                }, {
+                    name: 'c',
+                    y: 10,
+                    className: '',
+                }, {
+                    name: 'a',
+                    y: 2,
+                    className: '',
+                }],
             }],
         }));
 
@@ -184,7 +196,19 @@ describe('SDChart.Series', () => {
                 xAxis: 0,
                 type: 'bar',
                 name: 'Category',
-                data: [6, 10, 2],
+                data: [{
+                    name: 'Basketball',
+                    y: 6,
+                    className: '',
+                }, {
+                    name: 'Cricket',
+                    y: 10,
+                    className: '',
+                }, {
+                    name: 'Advisories',
+                    y: 2,
+                    className: '',
+                }],
             }],
         }));
     });
